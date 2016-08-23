@@ -1,9 +1,13 @@
 {
   "name": "wall-of-fame-react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Wall Of Fame client side implementation with react and redux",
   "author": "Mushangi Derrick",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DerrickJames/wall-of-fame-react"
+  },
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
     "start": "npm-run-all --parallel open:src lint:watch test:watch",
@@ -78,9 +82,5 @@
     "webpack": "1.13.0",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/coryhouse/pluralsight-redux-starter"
   }
 }
